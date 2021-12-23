@@ -4,7 +4,7 @@ from templates import *
 import requests
 
 ROOT_FOLDER = 'C:/Users/raxx/PycharmProjects/iss_location_bot/'
-API_KEY = '5059624037:AAHk8hg6uV60R-oP22UDQFG-A3ePkqSJEgk'
+API_KEY = 'YOUR TOKEN'
 bot = telebot.TeleBot(API_KEY)
 
 def save_chat_id(chat_id, latitude=0.0, longitude=0.0):
