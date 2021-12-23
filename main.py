@@ -3,7 +3,7 @@ import pandas as pd
 from templates import *
 import requests
 
-ROOT_FOLDER = 'C:/Users/raxx/PycharmProjects/iss_location_bot/'
+ROOT_FOLDER = ''
 API_KEY = 'YOUR TOKEN'
 bot = telebot.TeleBot(API_KEY)
 
